@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+$primary-bg-color: #0a0a0a;
+$border-color: #262626;
+$primary-text-color: #c5c5c5;
+$secondary-text-color: #666666;
+
+body {
+  background-color: $primary-bg-color;
+  padding: 1.5rem;
+}
+
+.container {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+}
+
+$breakpoints: (
+  medium: 786px,
+  large: 1024px,
+  extra-large: 1600px
+);
+
+@mixin responsive-screen($breakpoint) {
+  @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}

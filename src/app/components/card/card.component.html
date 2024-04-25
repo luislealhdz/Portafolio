@@ -1,0 +1,30 @@
+<article [ngClass]="{ 'card': !options.isImage, 'card__image': options.isImage}">
+  @if (options.hasMainTitle) {
+  <h1>{{ options.mainTitle }}</h1>
+  }
+  @else {
+  <h2>{{ options.secondaryTitle | uppercase }}</h2>
+  }
+
+  @if (options.hasDescription) {
+  <p>{{ options.description }}</p>
+  }
+
+  @if (options.hasALink) {
+  <div class="d-flex-end mt-2">
+    <a href="" class="link">
+      <img src="../../../assets/icons/arrow-up-right.svg" alt="arrow-up-right">
+    </a>
+  </div>
+  }
+
+  @if (options.isImage) {
+  <img
+    src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    alt="">
+  <span class="card__image__text">Texto en la parte inferior</span>
+  }
+
+  <!-- <app-slider /> -->
+
+</article>
