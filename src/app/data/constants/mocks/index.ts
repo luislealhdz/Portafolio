@@ -1,12 +1,13 @@
-import CardOptions from '../interfaces/card-options';
-import ImageTile from '../interfaces/image-tile';
+import CardOptions from '../../interfaces/card-options';
+import ImageTile from '../../interfaces/image-tile';
 
-export const CARD_INFORMATION: CardOptions[] = [
+export const CARD_INFORMATION_ES: CardOptions[] = [
   {
     hasMainTitle: true,
-    mainTitle: 'Main title',
+    mainTitle: 'Hola, soy Luis Leal',
     hasDescription: true,
-    description: 'lorem ipsum',
+    description:
+      'Un Ingeniero en Desarrollo de Software apasionado por las tecnologías de la web.',
     hasALink: false,
     isImage: false
   },
@@ -14,61 +15,80 @@ export const CARD_INFORMATION: CardOptions[] = [
     hasMainTitle: false,
     secondaryTitle: 'Sobre mí',
     hasDescription: true,
-    description: 'lorem ipsum, con tent data',
+    description: 'Desarrollador Java Full Stack con Angular',
     hasALink: true,
     routeName: 'about-me',
     isImage: false
   },
   {
     hasMainTitle: false,
-    secondaryTitle: 'Projects',
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageText: 'Proyecto Backend actual'
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageText: 'Proyecto Frontend actual'
+  },
+  {
+    hasMainTitle: false,
+    secondaryTitle: 'Proyectos',
     hasDescription: true,
-    description: 'lorem rovme oremva ovav ovr eov eo',
+    description:
+      '¿Qué he estado creando? ¡Explora algunos de mis proyectos previos!',
     hasALink: true,
     routeName: 'projects',
     isImage: false
+  }
+];
+
+export const CARD_INFORMATION_EN: CardOptions[] = [
+  {
+    hasMainTitle: true,
+    mainTitle: 'Hello, I am Luis Leal',
+    hasDescription: true,
+    description:
+      'A Software Development Engineer passionate about web technologies.',
+    hasALink: false,
+    isImage: false
+  },
+  {
+    hasMainTitle: false,
+    secondaryTitle: 'About me',
+    hasDescription: true,
+    description: 'Full Stack Java Developer with Angular',
+    hasALink: true,
+    routeName: 'about-me',
+    isImage: false
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageText: 'Current Backend Project'
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageText: 'Current Frontend Project'
   },
   {
     hasMainTitle: false,
     secondaryTitle: 'Projects',
     hasDescription: true,
-    description: 'lorem rovme oremva ovav ovr eov eo',
-    hasALink: true,
-    routeName: 'projects',
-    isImage: false
-  },
-  {
-    hasMainTitle: false,
-    secondaryTitle: 'Projects',
-    hasDescription: true,
-    description: 'lorem rovme oremva ovav ovr eov eo',
-    hasALink: true,
-    routeName: 'projects',
-    isImage: false
-  },
-  {
-    hasMainTitle: false,
-    secondaryTitle: 'Projects',
-    hasDescription: true,
-    description: 'lorem rovme oremva ovav ovr eov eo',
-    hasALink: true,
-    routeName: 'projects',
-    isImage: false
-  },
-  {
-    hasMainTitle: false,
-    secondaryTitle: 'Projects',
-    hasDescription: true,
-    description: 'lorem rovme oremva ovav ovr eov eo',
-    hasALink: true,
-    routeName: 'projects',
-    isImage: false
-  },
-  {
-    hasMainTitle: false,
-    secondaryTitle: 'Projects',
-    hasDescription: true,
-    description: 'lorem rovme oremva ovav ovr eov eo',
+    description:
+      'What have I been creating? Explore some of my previous projects!',
     hasALink: true,
     routeName: 'projects',
     isImage: false

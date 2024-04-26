@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ImageTileComponent } from '../image-tile/image-tile.component';
 import ImageTile from '../../data/interfaces/image-tile';
-import { IMAGE_TILE_DATA } from '../../data/constants';
+import { IMAGE_TILE_DATA } from '../../data/constants/mocks';
 
 @Component({
   selector: 'app-slider',

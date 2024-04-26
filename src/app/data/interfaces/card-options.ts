@@ -8,4 +8,5 @@ export default interface CardOptions {
   routeName?: string;
   isImage: boolean;
   imageSource?: string;
+  imageText?: string;
 }
