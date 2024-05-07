@@ -66,6 +66,13 @@ export const CARD_INFORMATION_ES: CardOptions[] = [
     hasALink: true,
     routeName: 'projects',
     isImage: false
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    isImage: false,
+    isSlider: true
   }
 ];
 
@@ -134,64 +141,55 @@ export const CARD_INFORMATION_EN: CardOptions[] = [
     hasALink: true,
     routeName: 'projects',
     isImage: false
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    isImage: false,
+    isSlider: true
   }
 ];
 
 export const IMAGE_TILE_DATA: ImageTile[] = [
-  { src: 'https://skillicons.dev/icons?i=html', alt: 'HTML5' },
-  { src: 'https://skillicons.dev/icons?i=css', alt: 'CSS3' },
-  { src: 'https://skillicons.dev/icons?i=tailwind', alt: 'Tailwind CSS' },
-  { src: 'https://skillicons.dev/icons?i=bootstrap', alt: 'Bootstrap' },
-  { src: 'https://skillicons.dev/icons?i=js', alt: 'JavaScript' },
-  { src: 'https://skillicons.dev/icons?i=ts', alt: 'TypeScript' },
-  { src: 'https://skillicons.dev/icons?i=angular', alt: 'Angular' },
-  { src: 'https://skillicons.dev/icons?i=jest', alt: 'Jest' },
-  { src: 'https://cdn.simpleicons.org/jasmine/8A4182', alt: 'Jasmine' },
-  {
-    src:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/karma/karma-original.svg',
-    alt: 'Karma'
-  },
-  { src: 'https://cdn.simpleicons.org/firebase/FFCA28', alt: 'Firebase' },
-  { src: 'https://skillicons.dev/icons?i=mysql', alt: 'MySQL' },
-  { src: 'https://skillicons.dev/icons?i=postgres', alt: 'PostgreSQL' },
-  { src: 'https://cdn.simpleicons.org/postman/FF6C37', alt: 'Postman' },
-  { src: 'https://skillicons.dev/icons?i=java', alt: 'Java' },
-  { src: 'https://cdn.simpleicons.org/spring/6DB33F', alt: 'Spring' },
-  { src: 'https://skillicons.dev/icons?i=django', alt: 'Django' },
-  { src: 'https://skillicons.dev/icons?i=figma', alt: 'Figma' },
-  {
-    src:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg',
-    alt: 'Jira'
-  },
-  { src: 'https://cdn.simpleicons.org/trello/0052CC', alt: 'Trello' },
-  { src: 'https://skillicons.dev/icons?i=html', alt: 'HTML5' },
-  { src: 'https://skillicons.dev/icons?i=css', alt: 'CSS3' },
-  { src: 'https://skillicons.dev/icons?i=tailwind', alt: 'Tailwind CSS' },
-  { src: 'https://skillicons.dev/icons?i=bootstrap', alt: 'Bootstrap' },
-  { src: 'https://skillicons.dev/icons?i=js', alt: 'JavaScript' },
-  { src: 'https://skillicons.dev/icons?i=ts', alt: 'TypeScript' },
-  { src: 'https://skillicons.dev/icons?i=angular', alt: 'Angular' },
-  { src: 'https://skillicons.dev/icons?i=jest', alt: 'Jest' },
-  { src: 'https://cdn.simpleicons.org/jasmine/8A4182', alt: 'Jasmine' },
-  {
-    src:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/karma/karma-original.svg',
-    alt: 'Karma'
-  },
-  { src: 'https://cdn.simpleicons.org/firebase/FFCA28', alt: 'Firebase' },
-  { src: 'https://skillicons.dev/icons?i=mysql', alt: 'MySQL' },
-  { src: 'https://skillicons.dev/icons?i=postgres', alt: 'PostgreSQL' },
-  { src: 'https://cdn.simpleicons.org/postman/FF6C37', alt: 'Postman' },
-  { src: 'https://skillicons.dev/icons?i=java', alt: 'Java' },
-  { src: 'https://cdn.simpleicons.org/spring/6DB33F', alt: 'Spring' },
-  { src: 'https://skillicons.dev/icons?i=django', alt: 'Django' },
-  { src: 'https://skillicons.dev/icons?i=figma', alt: 'Figma' },
-  {
-    src:
-      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg',
-    alt: 'Jira'
-  },
-  { src: 'https://cdn.simpleicons.org/trello/0052CC', alt: 'Trello' }
+  { src: '../../../assets/icons/1.svg', alt: 'HTML5' },
+  { src: '../../../assets/icons/2.svg', alt: 'CSS3' },
+  { src: '../../../assets/icons/3.svg', alt: 'Tailwind CSS' },
+  { src: '../../../assets/icons/4.svg', alt: 'Bootstrap' },
+  { src: '../../../assets/icons/5.svg', alt: 'JavaScript' },
+  { src: '../../../assets/icons/6.svg', alt: 'TypeScript' },
+  { src: '../../../assets/icons/7.svg', alt: 'Angular' },
+  { src: '../../../assets/icons/8.svg', alt: 'Jest' },
+  { src: '../../../assets/icons/9.svg', alt: 'Jasmine' },
+  { src: '../../../assets/icons/10.svg', alt: 'Karma' },
+  { src: '../../../assets/icons/11.svg', alt: 'Firebase' },
+  { src: '../../../assets/icons/12.svg', alt: 'MySQL' },
+  { src: '../../../assets/icons/13.svg', alt: 'PostgreSQL' },
+  { src: '../../../assets/icons/14.svg', alt: 'Postman' },
+  { src: '../../../assets/icons/15.svg', alt: 'Java' },
+  { src: '../../../assets/icons/16.svg', alt: 'Spring' },
+  { src: '../../../assets/icons/17.svg', alt: 'Django' },
+  { src: '../../../assets/icons/18.svg', alt: 'Figma' },
+  { src: '../../../assets/icons/19.svg', alt: 'Jira' },
+  { src: '../../../assets/icons/20.svg', alt: 'Trello' },
+  { src: '../../../assets/icons/1.svg', alt: 'HTML5' },
+  { src: '../../../assets/icons/2.svg', alt: 'CSS3' },
+  { src: '../../../assets/icons/3.svg', alt: 'Tailwind CSS' },
+  { src: '../../../assets/icons/4.svg', alt: 'Bootstrap' },
+  { src: '../../../assets/icons/5.svg', alt: 'JavaScript' },
+  { src: '../../../assets/icons/6.svg', alt: 'TypeScript' },
+  { src: '../../../assets/icons/7.svg', alt: 'Angular' },
+  { src: '../../../assets/icons/8.svg', alt: 'Jest' },
+  { src: '../../../assets/icons/9.svg', alt: 'Jasmine' },
+  { src: '../../../assets/icons/10.svg', alt: 'Karma' },
+  { src: '../../../assets/icons/11.svg', alt: 'Firebase' },
+  { src: '../../../assets/icons/12.svg', alt: 'MySQL' },
+  { src: '../../../assets/icons/13.svg', alt: 'PostgreSQL' },
+  { src: '../../../assets/icons/14.svg', alt: 'Postman' },
+  { src: '../../../assets/icons/15.svg', alt: 'Java' },
+  { src: '../../../assets/icons/16.svg', alt: 'Spring' },
+  { src: '../../../assets/icons/17.svg', alt: 'Django' },
+  { src: '../../../assets/icons/18.svg', alt: 'Figma' },
+  { src: '../../../assets/icons/19.svg', alt: 'Jira' },
+  { src: '../../../assets/icons/20.svg', alt: 'Trello' }
 ];

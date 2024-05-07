@@ -23,7 +23,9 @@
   <span class="card__image__text">{{ options.imageText }}</span>
   }
 
-  <!-- <app-slider /> -->
+  @if (options.isSlider) {
+  <app-slider />
+  }
 
   @if (options.isProfileImage) {
   <img class="profile" src="{{ options.profileImage }}" alt="">
