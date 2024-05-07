@@ -13,6 +13,33 @@ export const CARD_INFORMATION_ES: CardOptions[] = [
   },
   {
     hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageSource:
+      'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    imageText: 'Proyecto Backend actual'
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageSource:
+      'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    imageText: 'Proyecto Frontend actual'
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    isImage: true,
+    imageSource: 'https://avatars.githubusercontent.com/u/95981661?v=4'
+  },
+  {
+    hasMainTitle: false,
     secondaryTitle: 'Sobre mí',
     hasDescription: true,
     description: 'Desarrollador Java Full Stack con Angular',
@@ -26,15 +53,9 @@ export const CARD_INFORMATION_ES: CardOptions[] = [
     hasALink: false,
     routeName: 'projects',
     isImage: true,
-    imageText: 'Proyecto Backend actual'
-  },
-  {
-    hasMainTitle: false,
-    hasDescription: false,
-    hasALink: false,
-    routeName: 'projects',
-    isImage: true,
-    imageText: 'Proyecto Frontend actual'
+    imageSource:
+      'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    imageText: 'Proyecto reciente'
   },
   {
     hasMainTitle: false,
@@ -60,6 +81,33 @@ export const CARD_INFORMATION_EN: CardOptions[] = [
   },
   {
     hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageSource:
+      'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    imageText: 'Current Backend Project'
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    routeName: 'projects',
+    isImage: true,
+    imageSource:
+      'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    imageText: 'Current Frontend Project'
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    isImage: true,
+    imageSource: 'https://avatars.githubusercontent.com/u/95981661?v=4'
+  },
+  {
+    hasMainTitle: false,
     secondaryTitle: 'About me',
     hasDescription: true,
     description: 'Full Stack Java Developer with Angular',
@@ -73,15 +121,9 @@ export const CARD_INFORMATION_EN: CardOptions[] = [
     hasALink: false,
     routeName: 'projects',
     isImage: true,
-    imageText: 'Current Backend Project'
-  },
-  {
-    hasMainTitle: false,
-    hasDescription: false,
-    hasALink: false,
-    routeName: 'projects',
-    isImage: true,
-    imageText: 'Current Frontend Project'
+    imageSource:
+      'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    imageText: 'Recent project'
   },
   {
     hasMainTitle: false,

@@ -6,7 +6,9 @@ export default interface CardOptions {
   description?: string;
   hasALink: boolean;
   routeName?: string;
-  isImage: boolean;
+  isImage?: boolean;
   imageSource?: string;
   imageText?: string;
+  isProfileImage?: boolean;
+  profileImage?: string;
 }

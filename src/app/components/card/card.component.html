@@ -19,13 +19,15 @@
   }
 
   @if (options.isImage) {
-  <img
-    src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    alt="">
+  <img src="{{ options.imageSource }}" alt="">
   <span class="card__image__text">{{ options.imageText }}</span>
   }
 
   <!-- <app-slider /> -->
+
+  @if (options.isProfileImage) {
+  <img class="profile" src="{{ options.profileImage }}" alt="">
+  }
 
   <!-- TODO: Implementar observable -->
   <!-- <label class="switch">

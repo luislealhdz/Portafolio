@@ -5,11 +5,11 @@
   border: 1px solid #242424;
   padding: 24px;
   border-radius: 24px;
-  height: 200px;
+  height: 220px;
 }
 
 .card__image {
-  height: 200px;
+  height: 220px;
   position: relative;
 
   img {
@@ -130,4 +130,10 @@ input:checked + .slider:before {
 /* Estilos para el borde */
 .slider {
   border: 1px solid #242424;
+}
+
+.profile {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
