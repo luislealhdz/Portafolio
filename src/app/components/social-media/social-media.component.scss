@@ -1,0 +1,30 @@
+.d-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  height: 100%;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  background-color: #252525;
+  border-radius: 12px;
+
+  &__icon {
+    height: 50px;
+    margin: 1rem 0;
+  }
+}
+
+.box:nth-child(3) {
+  grid-column: span 2;
+}
+
+$colors: (#ea4335, #0f67b6, #8957e5);
+
+@for $i from 1 through length($colors) {
+  .box:nth-child(#{$i}):hover {
+    background-color: nth($colors, $i);
+  }
+}

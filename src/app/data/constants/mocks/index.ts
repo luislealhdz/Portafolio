@@ -1,5 +1,6 @@
 import CardOptions from '../../interfaces/card-options';
 import ImageTile from '../../interfaces/image-tile';
+import SocialMediaTile from '../../interfaces/social-media-tile';
 
 export const CARD_INFORMATION_ES: CardOptions[] = [
   {
@@ -193,4 +194,22 @@ export const IMAGE_TILE_DATA: ImageTile[] = [
   { src: '../../../assets/icons/18.svg', alt: 'Figma' },
   { src: '../../../assets/icons/19.svg', alt: 'Jira' },
   { src: '../../../assets/icons/20.svg', alt: 'Trello' }
+];
+
+export const SOCIAL_MEDIA_ICONS: SocialMediaTile[] = [
+  {
+    src: '../../../assets/icons/sm-1.svg',
+    alt: 'Email',
+    link: 'mailto:luisnglealhdz@gmail.com'
+  },
+  {
+    src: '../../../assets/icons/sm-2.svg',
+    alt: 'Linkedin',
+    link: 'www.linkedin.com/in/luis-leal-hdz'
+  },
+  {
+    src: '../../../assets/icons/sm-3.svg',
+    alt: 'Github',
+    link: 'https://github.com/luislealhdz'
+  }
 ];

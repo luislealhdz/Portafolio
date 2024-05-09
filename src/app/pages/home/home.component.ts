@@ -6,11 +6,12 @@ import {
 } from '../../data/constants/mocks';
 import CardOptions from '../../data/interfaces/card-options';
 import { LanguageService } from '../../services/language/language.service';
+import { SocialMediaComponent } from '../../components/social-media/social-media.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent],
+  imports: [CardComponent, SocialMediaComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
