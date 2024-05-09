@@ -68,7 +68,8 @@ export const CARD_INFORMATION_ES: CardOptions[] = [
     isImage: false
   },
   {
-    hasMainTitle: false,
+    hasMainTitle: true,
+    mainTitle: 'Tecnologías que utilizo',
     hasDescription: false,
     hasALink: false,
     isImage: false,

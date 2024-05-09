@@ -1,34 +1,7 @@
-// .slider {
-//   width: 280px;
-//   height: auto;
-//   overflow: hidden;
-//   border: 1px solid red;
-// }
-
-// .slider-track {
-//   display: flex;
-//   gap: 1rem;
-//   animation: slide 50s linear infinite;
-//   -webkit-animation: slide 50s linear infinite;
-//   width: calc(280px * 40);
-// }
-
-// @keyframes slide {
-//   0% {
-//     -webkit-transform: translateX(0);
-//     transform: translateX(0);
-//   }
-//   100% {
-//     -webkit-transform: translateX(calc(-280px * 20));
-//     transform: translateX(calc(-280px * 20));
-//   }
-// }
-
 .slider {
   position: relative;
   width: 100%;
   overflow: hidden;
-  border: 1px solid red;
 }
 
 .slider-track {
