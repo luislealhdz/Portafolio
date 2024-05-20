@@ -12,4 +12,5 @@ export default interface CardOptions {
   isProfileImage?: boolean;
   profileImage?: string;
   isSlider?: boolean;
+  isSwitchLanguage?: boolean;
 }

@@ -75,6 +75,13 @@ export const CARD_INFORMATION_ES: CardOptions[] = [
     hasALink: false,
     isImage: false,
     isSlider: true
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    isImage: false,
+    isSwitchLanguage: true
   }
 ];
 
@@ -150,6 +157,21 @@ export const CARD_INFORMATION_EN: CardOptions[] = [
     hasALink: false,
     isImage: false,
     isSlider: true
+  },
+  {
+    hasMainTitle: true,
+    mainTitle: 'Stack I use',
+    hasDescription: false,
+    hasALink: false,
+    isImage: false,
+    isSlider: true
+  },
+  {
+    hasMainTitle: false,
+    hasDescription: false,
+    hasALink: false,
+    isImage: false,
+    isSwitchLanguage: true
   }
 ];
 

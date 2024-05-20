@@ -1,14 +1,13 @@
 .slider {
-  position: relative;
-  width: 100%;
   overflow: hidden;
+  border: 1px solid red;
 }
 
 .slider-track {
   display: flex;
   gap: 1.5rem;
   width: fit-content;
-  animation: scroll 103s linear infinite;
+  animation: scroll 104s linear infinite;
 }
 
 @keyframes scroll {

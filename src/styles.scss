@@ -17,11 +17,6 @@ body {
   padding: 1.5rem;
 }
 
-.container {
-  width: min(100% - 2rem, 1200px);
-  margin-inline: auto;
-}
-
 $breakpoints: (
   medium: 768px,
   large: 1024px,
@@ -31,5 +26,15 @@ $breakpoints: (
 @mixin responsive-screen($breakpoint) {
   @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
     @content;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  .content__box {
+    padding: 0.5rem;
   }
 }

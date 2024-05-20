@@ -2,8 +2,14 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, 1fr);
   gap: 1rem;
+  width: 100%;
+
+  > :nth-child(8) {
+    min-width: 250px;
+    max-width: 767px;
+  }
 }
 
 @include responsive-screen(medium) {
@@ -44,13 +50,18 @@
     }
 
     > :nth-child(7) {
-      grid-column: span 3;
+      grid-column: span 2;
+    }
+
+    > :nth-child(8) {
+      grid-column: span 2;
     }
   }
 }
 
 @include responsive-screen(large) {
   .grid {
+    grid-template-rows: repeat(3, 1fr);
     // Reset positions
     grid-template-columns: repeat(5, 1fr);
     > * {
