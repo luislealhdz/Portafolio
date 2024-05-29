@@ -1,0 +1,34 @@
+<article class="card">
+  @if (contentCard.hasMainTitle) {
+  <h1>{{ contentCard.mainTitle }}</h1>
+  }
+
+  @if (contentCard.hasSecondaryTitle) {
+  <p>{{ contentCard.secondaryTitle }}</p>
+  }
+
+  @if (contentCard.hasSecondaryDescription) {
+  <p>{{ contentCard.secondaryDescription }}</p>
+  }
+
+  @if (contentCard.hasThirdTitle) {
+  <p>{{ contentCard.thirdTitle }}</p>
+  }
+
+  @if (contentCard.thirdDescription) {
+  <p>{{ contentCard.thirdDescription }}</p>
+  }
+
+  @if (contentCard.hasExperienceBlock) {
+  <ul>
+
+    @for (experience of contentCard.experience; track $index) {
+    <li>
+      <p>{{ experience.titlePosition }}</p>
+      <p>{{ experience.company }}</p>
+      <p>{{ experience.timeLaps }}</p>
+    </li>
+    }
+  </ul>
+  }
+</article>

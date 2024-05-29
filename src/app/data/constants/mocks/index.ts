@@ -1,4 +1,5 @@
 import CardOptions from '../../interfaces/card-options';
+import CardPresentation from '../../interfaces/card-presentation';
 import ImageTile from '../../interfaces/image-tile';
 import SocialMediaTile from '../../interfaces/social-media-tile';
 
@@ -235,3 +236,44 @@ export const SOCIAL_MEDIA_ICONS: SocialMediaTile[] = [
     link: 'https://github.com/luislealhdz'
   }
 ];
+
+export const CARD_PRESENTATION_ES: CardPresentation[] = [
+  {
+    hasMainTitle: true,
+    mainTitle: 'Sobre mí',
+    hasSecondaryTitle: true,
+    secondaryTitle: 'Mi historia',
+    hasSecondaryDescription: true,
+    secondaryDescription: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat exercitationem est. Magnam fuga vitae
+    deleniti officiis! Officia hic, eligendi possimus omnis ut maxime aliquid delectus, fugit eos est optio.`,
+    hasThirdTitle: true,
+    thirdTitle: '¿Qué estoy haciendo ahora?',
+    hasThirdDescription: true,
+    thirdDescription: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat exercitationem est. Magnam fuga vitae
+    deleniti officiis! Officia hic, eligendi possimus omnis ut maxime aliquid delectus, fugit eos est optio.`
+  },
+  {
+    hasSecondaryTitle: true,
+    secondaryTitle: 'Experiencia',
+    hasExperienceBlock: true,
+    experience: [
+      {
+        titlePosition: 'Practicante de Sistemas',
+        company: 'Green Clean',
+        timeLaps: 'Agosto 2023 - Diciembre 2023'
+      },
+      {
+        titlePosition: 'Application Developer',
+        company: 'Atos',
+        timeLaps: 'Julio 2022 - Diciembre 2022'
+      },
+      {
+        titlePosition: 'Campus Intern',
+        company: 'Universidad Tecmilenio',
+        timeLaps: 'Enero 2020 - Julio 2022'
+      }
+    ]
+  }
+];
+
+export const CARD_PRESENTATION_EN: CardPresentation[] = [];

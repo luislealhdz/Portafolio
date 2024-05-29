@@ -19,6 +19,6 @@ export class HomeComponent {
   card_options: CardOptions[];
 
   constructor(private languageService: LanguageService) {
-    this.card_options = this.languageService.getLanguage();
+    this.card_options = this.languageService.getLanguageForHome();
   }
 }
